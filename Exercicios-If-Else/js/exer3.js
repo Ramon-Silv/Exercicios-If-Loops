@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 3</title>
-    <link rel="stylesheet" href="../style.css">
-</head>
-<body>
-    <h1>Faça um script que leia três números inteiros e mostre o maior deles.</h1>
-    <script>
-        let n1= parseFloat(prompt("Digite o primeiro valor: "));
+let n1= parseFloat(prompt("Digite o primeiro valor: "));
         let n2= parseFloat(prompt("Digite o segundo valor: "));
         let n3= parseFloat(prompt("Digite o terceiro valor: "));
 
@@ -25,6 +13,3 @@
         else{
             document.write("<h2>O maior número entre eles é o número "+ n3+".</h2>")
         }
-    </script>
-</body>
-</html>
