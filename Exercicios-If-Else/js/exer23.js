@@ -18,6 +18,6 @@ let valorMaca = macas * precoMaca;
 let total = valorMorango + valorMaca;
 
 if (morango + macas > 8 || total > 25) {
-    total = total - (total * (0.10)); // Aplica o desconto de 10%
+    total = total - (total * (0.10));
 }
 document.write("O valor a ser pago é de R$" + total.toFixed(2));
